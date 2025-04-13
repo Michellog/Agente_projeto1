@@ -6,7 +6,7 @@ from groq import Groq
 
 
 # Configurações da página
-st.set_page_config(page_title="GPT do Michel (Groq)", page_icon="🧠")
+st.set_page_config(page_title="Chat do Michel", page_icon="🧠")
 
 # Inicialização do cliente Groq
 client = Groq(api_key="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")
@@ -20,7 +20,7 @@ st.sidebar.markdown("---")
 st.sidebar.info("💡 Dica: quanto maior a temperatura, mais criativa a resposta.")
 
 # ---------- TÍTULO PRINCIPAL ----------
-st.markdown("<h1 style='text-align: center; color: #4F8BF9;'>🤖 GPT Michel com IA Groq</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #4F8BF9;'>🤖 Chat do Michel </h1>", unsafe_allow_html=True)
 st.write(" ")
 
 # ---------- CAMPO DE ENTRADA ----------
